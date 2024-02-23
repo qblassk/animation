@@ -6,13 +6,10 @@ const shapesVariants = [
       scale: [0, 0.5, 1, 0, 1, 0, 1],
       y: [0, 0, -60, 0, -60, 0, -60],
       background: [
-         'radial-gradient( rgb(38,166,191) 5%, rgba(98,246,124,1), rgba(252,201,74,0.1))',
-         'radial-gradient( rgb(38,166,191) 10%, rgba(98,246,124,0.9), rgba(252,201,74,0.9))',
-         'radial-gradient( rgb(38,166,191) 40%, rgba(98,246,124,0.8), rgba(252,201,74,0.8))',
-         'radial-gradient( rgb(38,166,191) 10%, rgba(98,246,124,0.9), rgba(252,201,74,0.9))',
-         'radial-gradient( rgb(38,166,191) 40%, rgba(98,246,124,0.8), rgba(252,201,74,0.8))',
-         'linear-gradient( rgb(38,166,191), rgb(252,201,74), rgb(38,166,191))',
-         'linear-gradient( rgb(38,166,191), rgb(252,201,74), rgb(38,166,191))',
+         'linear-gradient(rgba(98,246,124,0.6), rgb(38,166,191), rgba(98,246,124,0.6))',
+         'linear-gradient(rgba(98,246,124,0.9), rgb(38,166,191), rgba(98,246,124,0.9))',
+         'linear-gradient( rgb(38,166,191), rgba(98,246,124,0.8), rgb(38,166,191))',
+         'linear-gradient( rgb(38,105,191), rgba(252,201,74,0.9), rgb(38,105,191))',
       ],
    },
    // BOTTOM
@@ -20,13 +17,10 @@ const shapesVariants = [
       scale: [0, 0.5, 1, 0, 1, 0, 1],
       y: [0, 0, 60, 0, 60, 0, 60],
       background: [
-         'radial-gradient( rgb(38,166,191) 5%, rgba(98,246,124,1), rgba(252,201,74,0.1))',
-         'radial-gradient( rgb(38,166,191) 10%, rgba(98,246,124,0.9), rgba(252,201,74,0.9))',
-         'radial-gradient( rgb(38,166,191) 40%, rgba(98,246,124,0.8), rgba(252,201,74,0.8))',
-         'radial-gradient( rgb(38,166,191) 10%, rgba(98,246,124,0.9), rgba(252,201,74,0.9))',
-         'radial-gradient( rgb(38,166,191) 40%, rgba(98,246,124,0.8), rgba(252,201,74,0.8))',
-         'linear-gradient( rgb(38,166,191), rgb(252,201,74), rgb(38,166,191))',
-         'linear-gradient( rgb(38,166,191), rgb(252,201,74), rgb(38,166,191))',
+         'linear-gradient(rgba(98,246,124,0.6), rgb(38,166,191), rgba(98,246,124,0.6))',
+         'linear-gradient(rgba(98,246,124,0.9), rgb(38,166,191), rgba(98,246,124,0.9))',
+         'linear-gradient( rgb(38,166,191), rgba(98,246,124,0.8), rgb(38,166,191))',
+         'linear-gradient( rgb(38,105,191), rgba(252,201,74,0.9), rgb(38,105,191))',
       ],
    },
    // LEFT
@@ -34,13 +28,10 @@ const shapesVariants = [
       scale: [0, 0.5, 1, 1, 0, 1, 0],
       x: [0, 0, -60, -60, 0, -60, 0],
       background: [
-         'radial-gradient( rgba(38,166,191,1) 5%, rgba(98,246,124,1), rgba(252,201,74,0.6))',
-         'radial-gradient( rgba(38,166,191,1) 10%, rgba(98,246,124,1), rgba(252,201,74,0.8))',
-         'radial-gradient( rgba(38,166,191,1) 40%, rgba(98,246,124,1), rgba(252,201,74,0.8))',
-         'radial-gradient(circle at right, rgba(252,201,74,0.8) 50%, rgb(161,34,25) 100%, rgb(26,18,129) 100%, rgb(106,176,124) 100%)',
-         'radial-gradient(circle at right, rgba(252,201,74,0.6) 20%, rgb(161,34,25) 30%, rgb(26,18,129) 50%, rgb(106,176,124) 80%)',
-         'radial-gradient(circle at right, rgba(252,201,74,0.8) 50%, rgb(26,18,129) 100%, rgb(255,0,230) 100%)',
-         'radial-gradient(circle at right, rgba(252,201,74,0.6) 20%, rgb(26,18,129) 50%, rgb(255,0,230) 80%)',
+         'radial-gradient(circle at left, rgba(98,246,124,0.6) 50%, rgb(38,166,191) 100%, rgb(38,166,191) 100%, rgba(98,246,124,0.6) 100%)',
+         'radial-gradient(circle at left, rgba(18,94,129,0.6) 20%, rgb(38,166,191) 30%, rgb(38,166,191) 50%, rgba(98,246,124,0.8) 80%)',
+         'radial-gradient(circle at left, rgba(26,18,129,0.8) 20%, rgba(26,18,129) 30%, rgba(161,34,25) 50%, rgb(252,201,74) 80%)',
+         'radial-gradient(circle at left, rgba(106,176,124,0.8) 50%, rgb(26,18,129) 100%, rgb(161,34,25) 100%, rgb(252,201,74) 100%)',
       ],
    },
    // RIGHT
@@ -48,43 +39,85 @@ const shapesVariants = [
       scale: [0, 0.5, 1, 1, 0, 1, 0],
       x: [0, 0, 60, 60, 0, 60, 0],
       background: [
-         'radial-gradient( rgba(38,166,191,1) 5%, rgba(98,246,124,1), rgba(252,201,74,0.6))',
-         'radial-gradient( rgba(38,166,191,1) 10%, rgba(98,246,124,1), rgba(252,201,74,0.8))',
-         'radial-gradient( rgba(38,166,191,1) 40%, rgba(98,246,124,1), rgba(252,201,74,0.8))',
-         'radial-gradient(circle at left, rgba(252,201,74,0.8) 50%, rgb(161,34,25) 100%, rgb(26,18,129) 100%, rgb(106,176,124) 100%)',
-         'radial-gradient(circle at left, rgba(252,201,74,0.6) 20%, rgb(161,34,25) 30%, rgb(26,18,129) 50%, rgb(106,176,124) 80%)',
-         'radial-gradient(circle at left, rgba(252,201,74,0.8) 50%, rgb(26,18,129) 100%, rgb(255,0,230) 100%)',
-         'radial-gradient(circle at left, rgba(252,201,74,0.6) 20%, rgb(26,18,129) 50%, rgb(255,0,230) 80%)',
+         'radial-gradient(circle at right, rgba(98,246,124,0.6) 50%, rgb(38,166,191) 100%, rgb(38,166,191) 100%, rgba(98,246,124,0.6) 100%)',
+         'radial-gradient(circle at right, rgba(18,94,129,0.6) 20%, rgb(38,166,191) 30%, rgb(38,166,191) 50%, rgba(98,246,124,0.8) 80%)',
+         'radial-gradient(circle at right, rgba(26,18,129,0.8) 20%, rgba(26,18,129) 30%, rgba(161,34,25) 50%, rgb(252,201,74) 80%)',
+         'radial-gradient(circle at right, rgba(106,176,124,0.8) 50%, rgb(26,18,129) 100%, rgb(161,34,25) 100%, rgb(252,201,74) 100%)',
       ],
    },
 ];
 
 const subShapesVariants = [
    {
-      width: [60, 70, 60, 50, 60, 70, 80],
-      height: [3, 4, 3, 2, 3, 3, 5],
+      width: [60],
+      height: [3, 7],
    },
    {
-      width: [100, 90, 100, 80, 90, 90, 80],
-      height: [5, 7, 6, 5, 7, 5, 6],
+      width: [140],
+      height: [7, 15],
    },
    {
-      width: [150, 160, 180, 190, 180, 180, 170],
-      height: [8, 9, 6, 6, 7, 7, 6],
+      width: [160],
+      height: [10, 20],
    },
    {
-      width: [180, 180, 160, 180, 190, 180, 160],
-      height: [7, 8, 9, 6, 6, 7, 6],
+      width: [160],
+      height: [10, 20],
    },
    {
-      width: [90, 80, 90, 90, 100, 90, 90],
-      height: [5, 8, 6, 5, 7, 5, 7],
+      width: [140],
+      height: [7, 15],
    },
    {
-      width: [60, 70, 60, 50, 60, 70],
-      height: [3, 4, 3, 2, 3, 3, 3],
+      width: [60],
+      height: [3, 7],
    },
 ];
+
+function getBackground(position) {
+   switch (position) {
+      case 'top':
+         return [
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+         ];
+      case 'bottom':
+         return [
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+         ];
+      case 'left':
+         return [
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(farthest-corner at 70px 10px, rgb(0, 0, 0) 65%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(farthest-corner at 90px 10px, rgb(0, 0, 0) 65%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(farthest-corner at 90px 10px, rgb(0, 0, 0) 65%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(farthest-corner at 70px 10px, rgb(0, 0, 0) 65%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+         ];
+      case 'right':
+         return [
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(farthest-corner at 15px 10px, rgb(0, 0, 0) 65%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(farthest-corner at 10px 10px, rgb(0, 0, 0) 65%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(farthest-corner at 10px 10px, rgb(0, 0, 0) 65%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(farthest-corner at 15px 10px, rgb(0, 0, 0) 65%, rgb(21, 82, 250) 30%)',
+            'radial-gradient(rgb(0, 0, 0) 50%, rgb(21, 82, 250) 30%)',
+         ];
+      default:
+         return [];
+   }
+}
 
 function App() {
    return (
@@ -100,15 +133,20 @@ function App() {
                   repeat: Infinity,
                }}
             >
-               {subShapesVariants.map((variant, index) => (
+               {subShapesVariants.map((subVariant, subIndex) => (
                   <motion.div
-                     key={index}
+                     key={subIndex}
                      className="shadow"
-                     animate={variant}
+                     animate={subVariant}
                      transition={{
                         ease: 'easeInOut',
-                        duration: 9,
+                        duration: 3,
                         repeat: Infinity,
+                     }}
+                     style={{
+                        background: getBackground(
+                           index === 0 ? 'top' : index === 1 ? 'bottom' : index === 2 ? 'left' : 'right'
+                        )[subIndex],
                      }}
                   />
                ))}
